@@ -1,7 +1,20 @@
 body{
 
 }
+.time{
+    display: flex;
+    color:rgb(93, 202, 250);
+    font-size: 20px;
+    justify-content: left;
+    align-self: start;
 
+}
+
+.user{
+    color: grey;
+    font-size: 20px;
+
+}
 #button{
     background-color: rgb(93, 202, 250);
     font-family: 'Nunito', sans-serif;
@@ -19,6 +32,8 @@ body{
     
     font-family: 'Nunito', sans-serif;
     font-size: 40px;
+    
+
 
 }
 
