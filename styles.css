@@ -1,0 +1,41 @@
+body{
+
+}
+
+#button{
+    background-color: rgb(93, 202, 250);
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+    color: white;
+
+
+}
+
+#button:hover{
+    background-color:rgb(66, 138, 211);
+}
+
+#tweet{
+    
+    font-family: 'Nunito', sans-serif;
+    font-size: 40px;
+
+}
+
+#logo{
+    background-image: url(logo.png);
+    height: 100px;
+    width: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+
+}
+#timeline{
+    font-size: 40px;
+
+    font-family: 'Nunito', sans-serif;
+ 
+
+}
+
