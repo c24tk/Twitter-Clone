@@ -12,7 +12,7 @@ if (tweet.value.length===0){
      return false;
     }
 
-li.appendChild(document.createTextNode(tweet.value));
+li.appendChild(document.createTextNode(tweet.value,getDate() ));
 ul.appendChild(li);
 
 
