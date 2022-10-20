@@ -1,6 +1,16 @@
 body{
 
 }
+
+.favorite{
+    height: 50px;
+    width: 33px;
+    display:flex;
+    background-image: url(greystar.png);
+    background-size: cover;
+
+}
+
 .time{
     display: flex;
     color:rgb(93, 202, 250);
