@@ -23,7 +23,10 @@ span.appendChild(document.createTextNode(time + time1))
 
 let span2 = document.createElement('span');
 span2.className = "user";
-span2.appendChild(document.createTextNode("@tarakamshad"))
+span2.appendChild(document.createTextNode("@tara-kamshad"))
+
+// let reply = document.createElement('span');
+// reply.className = "reply2";
 
 let favorite = document.createElement('span');
 favorite.className = "favorite";
@@ -54,6 +57,8 @@ li.appendChild(favorite)
 li.appendChild(document.createTextNode(tweet.value))
 li.appendChild(span);
 li.appendChild(span2);
+// li.appendChild(reply);
+
 ul.appendChild(li);
 
 tweet.value = null
@@ -64,9 +69,11 @@ return false;
 
 
 }
-
-
-
-
 const form = document.getElementById("send-tweet");
 form.addEventListener("submit", processForm);
+
+
+
+
+
+

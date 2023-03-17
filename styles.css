@@ -1,7 +1,3 @@
-body{
-
-}
-
 .favorite{
     height: 50px;
     width: 33px;
@@ -13,7 +9,7 @@ body{
 
 .time{
     display: flex;
-    color:rgb(93, 202, 250);
+    color:rgb(93,202,250);
     font-size: 20px;
     justify-content: left;
     align-self: start;
@@ -26,23 +22,56 @@ body{
 
 }
 #button{
-    background-color: rgb(93, 202, 250);
+    background-color: rgb(93,202,250);
     font-family: 'Nunito', sans-serif;
     font-size: 40px;
     color: white;
 
 
 }
+#go{
+    background-color: rgb(93,202,250);
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    color: white;
 
+
+}
 #button:hover{
     background-color:rgb(66, 138, 211);
 }
 
+#user2{
+    
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+
+}
+
+
+#label{
+    
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+
+}
 #tweet{
     
     font-family: 'Nunito', sans-serif;
     font-size: 40px;
     
+
+
+}
+
+.reply2{
+    background-image: url(replyarrow.png);
+    height: 60px;
+    width: 60px;
+    background-size: contain;
+    display:flex;
+    position: relative;
+    left: -10px;
 
 
 }
@@ -63,4 +92,5 @@ body{
  
 
 }
+
 
